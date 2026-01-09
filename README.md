@@ -1,5 +1,7 @@
 # Free AI Programming Assistant (Golang)
 
+[简体中文](README.zh-CN.md)
+
 Agent-code-assistant is a code-assistant (LLM + Tool + Loop)
 
 A **minimalist, auditable, and privatizable** programming assistant CLI implemented using the **Go standard library**, without relying on any third-party Golang frameworks, packages, or Agent SDKs.

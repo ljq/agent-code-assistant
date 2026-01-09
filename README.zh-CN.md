@@ -1,6 +1,8 @@
 
 # Free AI Programming Assistant (Golang)
 
+[English](README.md)
+
 agent-code-assistant is a code-assistant（LLM + Tool + Loop）
 
 一个**极简、可审计、可私有化**的编程助手CLI
