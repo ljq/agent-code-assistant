@@ -55,10 +55,9 @@ No Agent magic, no framework black box.
 ```text
 
 .
-├── main.go # Main program (single file)
-
-├── config.yaml # Model and behavior configuration
-
+├── main.go       # Main program (single file)
+├── config.yaml   # Model and behavior configuration
+├── main_test.go  # Unit testing
 └── README.md
 
 ```

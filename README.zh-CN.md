@@ -52,6 +52,7 @@ LLM 生成回复（可能包含 tool 调用）
 .
 ├── main.go        # 主程序（单文件）
 ├── config.yaml    # 模型与行为配置
+├── main_test.go   # 单元测试
 └── README.md
 ```
 
