@@ -1,0 +1,6 @@
+model: deepseek-r1
+endpoint: http://127.0.0.1:11434/api/generate
+temperature: 0.2
+system_prompt: You are a free programming assistant.
+input_limit: 0
+
