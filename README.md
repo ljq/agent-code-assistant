@@ -77,19 +77,14 @@ input_limit: 0
 
 ### Parameter Description
 
-| Parameter | Description |
-
-| --------------- | ------------------- |
-
+|  Parameter  |  Description  |
+| ------------------- | ------------------- |
 | `model` | Model name |
-
 | `endpoint` | Model HTTP interface address |
-
 | `temperature` | Generated temperature (reserved field, currently unused) |
-
 | `system_prompt` | System prompt |
-
 | `input_limit` | Maximum number of characters for user input, `0` means no limit |
+
 
 > ⚠️ The `config.yaml` parser is a **minimalist implementation**, only supporting
 
@@ -136,13 +131,9 @@ The program will automatically execute the tool and continue the conversation.
 Currently, there are 3 built-in tools (can be freely expanded):
 
 | Tool Name | Function |
-
-| ------------ | --------- |
-
+| --------------- | --------------- |
 | `read_file` | Read file content |
-
 | `list_files` | List directory files |
-
 | `edit_file` | Create/modify file |
 
 ### Tool Call Format (Convention)
